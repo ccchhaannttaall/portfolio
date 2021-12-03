@@ -1,0 +1,80 @@
+Body{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin:0;
+    font-family:Avenir;
+    display: flex;
+    flex-direction: column;
+}
+/* Navigatie */
+
+nav>ul>li>a{
+    color: #767679;
+    font-size: 0.875em;
+}
+
+nav>ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+header>div{
+    font-size: 1.75em;
+    text-decoration-line:underline;
+}
+
+li{
+    padding: 0.5em 2em 0.5em 2em;
+    list-style: none;
+}
+
+
+/* Projecten */
+
+section{
+    display: flex;
+    height: 10em;
+    margin-top: 10%;
+}
+
+section > a {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+body>h2{
+    font-size: 4.0625em;
+     }
+
+body>p:first-of-type{
+    font-size: 1.125em;
+    color: #767679;
+}
+
+/* contactformulier */
+
+form{
+    padding: 10%;
+    background-color: #F4F4F4;
+}
+
+form>div{
+    display: flex;
+}
+form>div:nth-child(1){
+    flex-direction: column;
+
+}
